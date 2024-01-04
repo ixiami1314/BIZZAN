@@ -85,6 +85,12 @@
 		<guava_version>21.0</guava_version>
 		<protostuff_version>1.5.9</protostuff_version>
 		<ehcache_version>2.6.11</ehcache_version>
+
+		<!-- ====================================== -->
+		<!-- 配置远程docker服务地址，镜像打包名称前缀     -->
+		<!-- ====================================== -->
+		<remote.docker.prefix>fisher</remote.docker.prefix>
+		<remote.docker.ip>192.168.3.35</remote.docker.ip>
 	</properties>
 
 	<dependencyManagement>

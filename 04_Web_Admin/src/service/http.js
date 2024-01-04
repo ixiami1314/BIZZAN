@@ -1,7 +1,7 @@
 import axios from 'axios'
 import qs from 'qs'
 
-export const BASEURL = axios.defaults.baseURL = 'https://api.bizzan.pro/';
+export const BASEURL = axios.defaults.baseURL = 'http://192.168.3.35:6010/';
 
 export const fetch = (url, params = {}) => {
     return new Promise((resolve, reject) => {
