@@ -90,7 +90,8 @@
 		<!-- 配置远程docker服务地址，镜像打包名称前缀     -->
 		<!-- ====================================== -->
 		<remote.docker.prefix>fisher</remote.docker.prefix>
-		<remote.docker.ip>192.168.3.35</remote.docker.ip>
+<!--		<remote.docker.ip>192.168.3.35</remote.docker.ip>-->
+		<remote.docker.ip>1.94.53.61</remote.docker.ip>
 	</properties>
 
 	<dependencyManagement>

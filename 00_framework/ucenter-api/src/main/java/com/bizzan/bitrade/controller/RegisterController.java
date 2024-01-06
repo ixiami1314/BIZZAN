@@ -657,7 +657,9 @@ public class RegisterController {
             return error(localeMessageSourceService.getMessage("EMAIL_ALREADY_SEND"));
         }
         try {
-            emailProvider.sendEmail(email, code,"Verification Code","bindCodeEmail.ftl");
+            log.info("发送邮件验证码：{}", code);
+            log.info("此处暂不调用邮件发送 ...");
+//            emailProvider.sendEmail(email, code,"Verification Code","bindCodeEmail.ftl");
             valueOperations.set(EMAIL_REG_CODE_PREFIX + email, code, 10, TimeUnit.MINUTES);
         } catch (Exception e) {
             e.printStackTrace();
