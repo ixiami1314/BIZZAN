@@ -75,8 +75,8 @@ Vue.use(ViewUI, { i18n: (key, value) => i18n.t(key, value) });
 // Vue.prototype.rootHost = "https://www.bizzan.pro"; //BIZZAN
 // Vue.prototype.host = "https://api.bizzan.pro"; //BIZZAN
 
-Vue.prototype.rootHost = "http://1.94.53.61:19544/"; //BIZZAN
-Vue.prototype.host = "http://1.94.53.61:19544/"; //BIZZAN
+Vue.prototype.rootHost = "http://1.94.53.61:19544"; //BIZZAN
+Vue.prototype.host = "http://1.94.53.61:19544"; //BIZZAN
 
 Vue.prototype.api = Api;
 Vue.http.options.credentials = true;
